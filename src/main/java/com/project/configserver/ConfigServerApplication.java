@@ -8,11 +8,14 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+//@SpringBootApplication
+//@EnableEurekaClient
+//@EnableConfigServer
+//@Configuration
+//@EnableAutoConfiguration
 @SpringBootApplication
 @EnableEurekaClient
 @EnableConfigServer
-@Configuration
-@EnableAutoConfiguration
 public class ConfigServerApplication {
 
 	public static void main(String[] args) {
